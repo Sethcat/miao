@@ -91,7 +91,7 @@
 									//消除未定义变量php提示的warning
 									include_once("../method/getVar.php");	
 									if (_post("UserName")){
-									$id=mysql_connect("localhost","root","5720828sq")  or die("连接MySQL数据库服务器失败！".mysql_error());
+									$id=mysql_connect("localhost","root","password")  or die("连接MySQL数据库服务器失败！".mysql_error());
     								mysql_query("set names utf8");
  									mysql_select_db("Miao",$id);
  									$postname = _post("UserName");
