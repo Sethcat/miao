@@ -1,0 +1,81 @@
+
+body
+{
+	#background-image:url('../pic/introBG1.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+	font-family:Microsoft YaHei,PMingLiU;
+	
+}
+h1 
+{
+	 color:red;
+	 font-family:arial,MingLiU;
+	 font-size:xx-large;
+	 font-weight:bold;
+	 font-style:normal;
+ }
+table{
+	 width:750px;
+	 border:1,solid;
+	 border-color:#000;
+	 }
+th
+{
+	color:#7D7DFF;
+	font-size: x-large;
+	font-family:SimHei;
+	text-align:left;
+}
+h1:first-letter
+{
+	font-size:40px;
+}
+.return{
+	color:#FFFFFF;
+	padding-left:20em;
+	text-decoration:none;
+	}
+.portrait{
+	width:128px;
+	height:128px;
+	border-style:dashed;
+	border-color:#CC33FF;
+	float:right;
+}
+.picture{
+	border-color:#CC33FF;
+	border-style:solid;
+	float:right;
+	margin:0 0 0px 5px;
+}
+#cont{ margin:0;padding:0;}
+
+#cont p{ 
+	padding:25px 0 0 0;
+	display:inline; 
+
+	}
+
+.list1{
+	list-style-image:url('../pic/likesmall.png');
+	color:#00F;
+	}
+
+a:link {
+  color:#AA00ff;
+  text-decoration:none;}
+
+a:visited {
+  color:#333399;
+  text-decoration:none;}
+
+a:active {
+  color:#0033ff;
+  text-decoration:underline;}
+
+a:link:hover {
+  background-color:#33FFCC;
+  text-decoration:underline;
+  cursor:pointer;}

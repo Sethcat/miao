@@ -1,0 +1,155 @@
+
+body{
+	font-family: MicrosoftYaHei,'微软雅黑',Arial,Tahoma,Helvetica,Georgia,Sans-serif,'STXihei','华文黑体',Hei;
+    font-size: 12px;
+    line-height: 175%;
+	padding-left:15em;
+}
+
+#topnav{
+	line-height: 26px;
+	width: auto;
+    margin: auto;
+    display: block;
+    position: relative;
+    clear: both;
+	background-color:#E4E2E2;
+	margin:-1em -1em 0em -16em;
+}
+
+#topnav ul{
+	list-style: none;
+	text-align:right;
+	margin:10px 10px 10px 0px;
+	padding:0em 18em 0em 20em;
+}
+
+#topnav li{
+	display:inline;
+	margin: 0px 10px 0px 10px;
+}
+#topnav a{
+	color:#555555;
+}
+
+#mencontainer{
+	float:right;
+	margin:5 0 0 5em;
+	
+}
+#header title{
+	display:block;
+	margin:10em 0em 0em 10em;
+	padding:10em 0em 0em 20em;
+}
+#header ul{
+	list-style: none;
+	padding:0em 18em 0em 20em;
+	text-align:right;
+}
+#header li{
+	color:#AA00ff;
+	display:inline;
+	padding:0px 10px;
+	font-size:20px;
+}
+
+#main{
+	
+}
+textarea{
+	height: auto;
+}
+.btn-submit{
+	background-color:#3d4298;
+	#padding:3px 6px 3px 6px;
+	color:#fff;
+}
+#footer{
+	width:auto;
+	height:auto;
+	background-color:#555555;
+	margin-top:1em;
+	margin-right:-1em;
+	margin-bottom:;
+	margin-left:-16em;
+    #margin:1em -1em 0em -16em;
+	padding:1em 16em;
+	color:#BDC9E4;
+	
+}
+#footer ul{
+	display:block;
+	text-align:right;
+	padding:0em 18em 0em 0em;
+	}
+#footer p{
+	display:block;
+	text-align:left;
+	margin:0 0 9px;
+	float:left;
+}
+#footer li{
+	display:inline;
+	padding:0px 20px;
+}
+#toTop{
+	display: block;
+    width: 40px;
+    height: auto;
+    font-size: 26px;
+    line-height: 32px;
+    font-family: verdana, arial;
+    #color: #fff;
+	background-color:rgba(85, 85, 85, 0.298039);
+}
+#toTop{
+	color:#fff;
+	float:right;
+	
+}
+#toTop a{
+	display: block;
+    width: 40px;
+    height: 32px;
+    font-size: 26px;
+    line-height: 32px;
+    font-family: verdana, arial;
+    color: #fff;
+    text-decoration: none;
+	text-align:center;
+}
+#toTop a:hover {
+	background-color:#3d5998;
+}
+.btn-submit a{
+	cursor: pointer;
+}
+a:link {
+	text-decoration:none;
+  }
+.comment_table{
+	width: 600px;
+	border-collapse: collapse;
+}
+.comment-author{
+	width: 60px;
+	text-align: center;
+}
+.comment-time{
+	width: 100px;
+	text-align: center;
+}
+.comment-content{
+	width: 300px;
+}
+/*
+a:visited {
+  color:#333399;
+  text-decoration:none;}
+
+a:active {
+  color:#0033ff;
+  text-decoration:underline;}
+*/
+
