@@ -120,7 +120,7 @@
 	if (_post("UserName"))
 	{
 		//echo "POST data exist";
-    $id=mysql_connect("localhost","root","5720828sq")  or die("连接MySQL数据库服务器失败！".mysql_error());
+    $id=mysql_connect("localhost","root","password")  or die("连接MySQL数据库服务器失败！".mysql_error());
     $s1= mysql_query("set names utf8");
  	mysql_select_db("Miao",$id);
     $result = mysql_query("select * from MiaoAccount",$id) or die('数据库查询失败');
