@@ -11,7 +11,7 @@
 </head>
 	<?php
 		include_once("../method/getVar.php");
-		$conn=mysql_connect("localhost","root","5720828sq") or die("连接MySQL数据库服务器失败！".mysql_error());
+		$conn=mysql_connect("localhost","root","password") or die("连接MySQL数据库服务器失败！".mysql_error());
     	$s1= mysql_query("set names utf8");
  		mysql_select_db("Miao",$conn);
  		$result = array();
